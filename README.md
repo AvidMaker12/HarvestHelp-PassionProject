@@ -85,6 +85,14 @@ curl https://localhost:44323/Plants/Delete/5
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
+<!-- Additional Features -->
+## Additional Features to MVC
+- CRUD form validation via JavaScript
+
+
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
 
 
 <!-- Future Features & Improvements -->
