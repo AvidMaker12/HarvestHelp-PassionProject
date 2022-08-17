@@ -22,7 +22,6 @@
       <a href="#getting-started">Getting Started</a>
     </li>
     <li><a href="#example-api-commands">Example API Commands</a></li>
-    <li><a href="#additional-features-to-mvc">Additional Features to MVC</a></li>
     <li><a href="#future-fixes-and-features">Future Fixes and Features</a></li>
     <li><a href="#license">License</a></li>
 
@@ -85,14 +84,6 @@ curl https://localhost:44323/Plants/Delete/5
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-
-<!-- Additional Features -->
-## Additional Features to MVC
-- CRUD form validation via JavaScript
-
-
-
-<p align="right">(<a href="#top">back to top</a>)</p>
 
 
 
