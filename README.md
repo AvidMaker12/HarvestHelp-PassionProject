@@ -89,6 +89,7 @@ curl https://localhost:44323/Plants/Delete/5
 <!-- Additional Features -->
 ## Additional Features to MVC
 - 'Add Plant' page: 'zones' checkboxes allow users to add multiple plant growth zones
+- Updates to CSS styling
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
