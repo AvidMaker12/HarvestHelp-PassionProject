@@ -28,4 +28,5 @@ namespace HarvestHelp_PassionProject.Models
         public string FertilizerMix { get; set; }
 
     }
+
 }

@@ -38,6 +38,30 @@ namespace HarvestHelp_PassionProject.Controllers
         // GET: Plants/Create
         public ActionResult Create()
         {
+            // Checkboxes feature to provide users with plant zones selection options for when adding new plants.
+            List<plantZones> zoneCheckboxesList = new List<plantZones>();
+
+            zoneCheckboxesList.Add(new plantZones { ZoneId = "1a", zoneChecked = false });
+            zoneCheckboxesList.Add(new plantZones { ZoneId = "1b", zoneChecked = false });
+            zoneCheckboxesList.Add(new plantZones { ZoneId = "2a", zoneChecked = false });
+            zoneCheckboxesList.Add(new plantZones { ZoneId = "2b", zoneChecked = false });
+            zoneCheckboxesList.Add(new plantZones { ZoneId = "3a", zoneChecked = false });
+            zoneCheckboxesList.Add(new plantZones { ZoneId = "3b", zoneChecked = false });
+            zoneCheckboxesList.Add(new plantZones { ZoneId = "4a", zoneChecked = false });
+            zoneCheckboxesList.Add(new plantZones { ZoneId = "4b", zoneChecked = false });
+            zoneCheckboxesList.Add(new plantZones { ZoneId = "5a", zoneChecked = false });
+            zoneCheckboxesList.Add(new plantZones { ZoneId = "5b", zoneChecked = false });
+            zoneCheckboxesList.Add(new plantZones { ZoneId = "6a", zoneChecked = false });
+            zoneCheckboxesList.Add(new plantZones { ZoneId = "6b", zoneChecked = false });
+            zoneCheckboxesList.Add(new plantZones { ZoneId = "7a", zoneChecked = false });
+            zoneCheckboxesList.Add(new plantZones { ZoneId = "7b", zoneChecked = false });
+            zoneCheckboxesList.Add(new plantZones { ZoneId = "8a", zoneChecked = false });
+            zoneCheckboxesList.Add(new plantZones { ZoneId = "8b", zoneChecked = false });
+            zoneCheckboxesList.Add(new plantZones { ZoneId = "9a", zoneChecked = false });
+            zoneCheckboxesList.Add(new plantZones { ZoneId = "9b", zoneChecked = false });
+
+            ViewBag.zoneCheckboxesList = zoneCheckboxesList;
+
             return View();
         }
 
