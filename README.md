@@ -22,6 +22,7 @@
       <a href="#getting-started">Getting Started</a>
     </li>
     <li><a href="#example-api-commands">Example API Commands</a></li>
+    <li><a href="#additional-features-to-mvc">Additional Features to MVC</a></li>
     <li><a href="#future-fixes-and-features">Future Fixes and Features</a></li>
     <li><a href="#license">License</a></li>
 
